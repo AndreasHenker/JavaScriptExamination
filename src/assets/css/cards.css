@@ -1,0 +1,107 @@
+.icon{
+    width: 60px;
+    height: 60px;
+    background-color: var(--icons);
+    border-radius: 7px;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+.card-grid {
+    width: 746px;
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 118px);
+    
+}
+
+
+.card-grid-item {
+    display: flex;
+    gap: 2rem;
+}
+
+.card-grid-head{
+    grid-row: 1fr;
+    grid-column: 1 / -1;
+}
+
+.card {
+    width: 345px;
+    height: 118px;
+}
+
+.card-side, .card-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    row-gap: .5rem;
+    margin-right: .7rem;
+}
+
+.card-rating {
+    height: 350px;
+    width: 416px;
+    background-color: var(--bg_main);
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+}
+
+.title-card {
+    width: 306px;
+    margin-right: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.rating-text {
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.signature-card {
+    gap: 1rem;
+    width: 258px;
+}
+
+.quote-box {
+    width: 44px;
+    height: 44px;
+    background-color: var(--button_color);
+    color: var(--button_text);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5px;
+    position: relative;
+    transform: translateX(1.5rem) translateY(-1.5rem);
+    box-shadow: 5px 5px 15px rgb(153, 152, 152);
+}
+
+.rating-stars {
+    margin: 1rem 0 0 2rem;
+    
+}
+
+.info-card {
+    width: 243px;
+    text-align: left;
+    >div {
+        margin-bottom: 1rem;
+    }
+    margin: 1rem 2rem 1rem 0;
+}

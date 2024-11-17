@@ -1,0 +1,28 @@
+.pic_bottom{
+    align-content: end;
+}
+
+.pic_float {
+    position: relative;
+}
+
+.h_center{
+    /*top: -69%;
+    right: -14%;*/
+    transform: translateX(40%) translateY(-125%);
+}
+
+.off_to_right{
+    /*left: 20%;
+    top: -15%;*/
+    transform: translateX(80%) translateY(-55%);
+}
+
+.pic_behind {
+    /*left: 21%;*/
+    transform: translateX(43%);
+}
+
+.pic_front{
+    z-index: 5;
+}
